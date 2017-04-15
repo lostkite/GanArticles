@@ -7,6 +7,7 @@ import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.support.customtabs.CustomTabsClient;
 import android.support.customtabs.CustomTabsIntent;
+import android.support.v4.content.ContextCompat;
 import android.util.Log;
 
 import com.cambrian.android.ganarticles.enties.Article;
@@ -45,6 +46,7 @@ public abstract class WithinItemFragment extends AppFragment {
         PendingIntent pi = PendingIntent.getActivity(getActivity(), 0, shareIntent, 0);
 
         CustomTabsIntent intent = new CustomTabsIntent.Builder()
+                .setToolbarColor(ContextCompat.getColor(getActivity(), R.color.colorPrimary))
                 .setCloseButtonIcon(BitmapFactory.decodeResource(getResources(), R.drawable.ic_arrow_back))
                 .addMenuItem(getString(R.string.action_share_zh), pi)
                 .build();

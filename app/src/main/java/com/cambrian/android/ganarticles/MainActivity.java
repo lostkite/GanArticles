@@ -106,7 +106,7 @@ public class MainActivity extends AppCompatActivity
 
     @Override
     public void onShowArticleDetail(Article article) {
-        // TODO: 2017/4/15
+        startActivity(ArticleDetailActivity.newIntent(this, article));
     }
 
     /**
