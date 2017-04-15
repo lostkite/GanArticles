@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">GanArticles</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!--tool bar string sources-->
+    <string name="action_open_in_browser">Open in browser</string>
+    <string name="action_share">Share</string>
+    <string name="action_star">Star</string>
+    <string name="action_search">Search…</string>
+
+    <!--资源种类-->
+    <string name="type_daily">Daily</string>
+    <string name="type_android">Android</string>
+    <string name="type_ios">iOS</string>
+    <string name="type_welfare">福利</string>
+    <string name="type_front_end">前端</string>
+    <string name="type_star">收藏</string>
+    <string name="type_recommend">瞎推荐</string>
+    <string name="type_expanding_resources">拓展资源</string>
+    <string name="type_video">休息视频</string>
+
+    <string name="json_results">results</string>
+    <string name="json_category">category</string>
+
+    <!--navigation drawer items-->
+    <string name="nav_communicate">联系</string>
+    <string name="nav_about">关于</string>
+    <string name="nav_send">反馈</string>
+    <string name="nav_favorite">Favorite</string>
+
+    <!--image view description-->
+    <string name="gank_photo_string">干货图片</string>
+    <string name="nav_header_photo_desc">app icon</string>
+    <string name="welfare_image">福利图片</string>
+    <string name="gan_example_image">示例图片</string>
+
+
+    <string name="data_unavailable_message">%1$s, 刷新一下试试</string>
+    <string name="type_about">About me</string>
+    <string name="gank_website">Gank.io</string>
+    <string name="about_author">Author</string>
+    <string name="gan_articles">Gan Articles</string>
+    <string name="version_code">version: 1.0.0</string>
+    <string name="about_zh">关于</string>
+    <string name="action_share_zh">分享</string>
+    <string name="project_website">项目地址</string>
+</resources>

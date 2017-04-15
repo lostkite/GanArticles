@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_today"
+            android:checked="true"
+            android:icon="@drawable/ic_menu_calendar_today"
+            android:title="@string/type_daily"/>
+        <item
+            android:id="@+id/nav_android"
+            android:icon="@drawable/ic_menu_android"
+            android:title="@string/type_android"/>
+        <item
+            android:id="@+id/nav_ios"
+            android:icon="@drawable/ic_menu_apple"
+            android:title="@string/type_ios"/>
+        <item
+            android:id="@+id/nav_front_end"
+            android:icon="@drawable/ic_menu_language_javascript"
+            android:title="@string/type_front_end"/>
+        <item
+            android:id="@+id/nav_welfare"
+            android:icon="@drawable/ic_menu_gift"
+            android:title="@string/type_welfare"/>
+    </group>
+
+    <item android:title="@string/nav_favorite">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_star"
+                    android:icon="@drawable/ic_menu_collect"
+                    android:title="@string/action_star"/>
+            </group>
+
+        </menu>
+    </item>
+
+    <item android:title="@string/nav_communicate">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_about"
+                    android:icon="@drawable/ic_menu_about"
+                    android:title="@string/nav_about"/>
+                <!--<item-->
+                    <!--android:id="@+id/nav_send"-->
+                    <!--android:icon="@drawable/ic_menu_send"-->
+                    <!--android:title="@string/nav_send"/>-->
+            </group>
+        </menu>
+    </item>
+
+</menu>

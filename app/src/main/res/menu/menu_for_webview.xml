@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_star"
+        android:icon="@drawable/heart_checkbox"
+        android:title="@string/action_star"
+        app:actionViewClass="android.widget.CheckBox"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_share"
+        android:title="@string/action_share_zh"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_open_browser"
+        android:title="@string/action_open_in_browser"
+        app:showAsAction="never"/>
+
+</menu>
