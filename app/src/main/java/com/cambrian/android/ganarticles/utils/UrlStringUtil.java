@@ -51,7 +51,7 @@ public class UrlStringUtil {
     }
 
     public static String getProjectUrl() {
-        return "https://example.com";
+        return "https://github.com/lostkite/GanArticles";
     }
 
     public static String getScaledImageUrlString(String imageUrl) {
